@@ -1,0 +1,120 @@
+a{
+  text-decoration: none;
+  color: black;
+}
+li{
+      display: block;
+}
+.li-row,.li-row-amazing{
+  display: inline-flex;
+  margin: -3px -2px;
+}
+#body{
+margin: 0 auto;
+}
+/*header*/
+#header{
+  background-color: #fff;
+  margin: auto;
+  width: 100%;
+  position: fixed;
+  z-index: 999;
+}
+.container{
+  padding: 0 18.5px;
+	width: 936px;
+	height: 62px;
+  margin: 0 auto;
+}
+#navbar{
+float: left;
+}
+#logo{
+  float: right;
+margin: 8px 12.5px 4px; 12.5px;
+}
+#text_logo{
+    font-size: 40px;
+    color:#11b7e6;
+}
+.table{
+  margin: 0;
+  padding: 0;
+}
+.elements-of-tabel:hover{
+  border-color: #11b7e6;
+  color: #00aaf6;
+  transition: .4s
+}
+.elements-of-tabel{
+padding: 18px 15px 17px 15px;
+font-family: 'Cairo', sans-serif;
+font-size: 14px;
+color: #333;
+border-bottom: 2.4px solid#fff;
+}
+.elements-of-tabell:hover{
+  background-color: #0d9ec7;
+  border-color: #11b7e6;
+  transition: .4s;
+}
+.elements-of-tabell{
+  background-color:#11b7e6;
+  color: #fff;
+  padding: 20px 15px 17px 15px;
+  font-family: 'Cairo', sans-serif;
+  font-size: 14px;
+  border-bottom: 2.4px solid#11b7e6;
+}
+
+/*main*/
+#main{
+  height: 1500px;
+}
+.idiom{
+  background: linear-gradient(160deg,#f9f9f9 0,#00aaf6 100%);
+  width: 100%;
+  height: 1800px;
+  font-family: 'Cairo', sans-serif;
+  position: relative;
+  text-align: center;
+  background-image: url(background-image/3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.stl{
+  width: 100%;
+  height: 1800px;
+  position: absolute;
+  background: linear-gradient(340deg,#f9f9f9 0,#00aaf6 100%);
+  opacity: .8;
+  z-index: 2;
+}
+.h1{
+margin: 0;
+position: absolute;
+top: 125px;
+font-size: 43px;
+color: #fff;
+left: 5%;
+right: 5%;
+z-index: 3;
+}
+.cont{
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #284a59;
+    opacity: .9;
+    z-index: 3;
+    position: relative;
+    top: 250px;
+    text-align: right;
+    padding: 30px 30px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-family: 'Cairo', sans-serif;
+    color: #fff;
+}
+p{
+    margin-bottom: 40px;
+}
