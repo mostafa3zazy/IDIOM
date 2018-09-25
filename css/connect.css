@@ -11,10 +11,11 @@ li{
 }
 #body{
 margin: 0 auto;
-width: 980px;
+max-width: 980px;
 background-image: url(background-image/pg.jpg);
 background-attachment: fixed;
 height: 600px;
+min-width: 380px;
 }
 .style{
     width: 100%;
@@ -85,14 +86,14 @@ border-bottom: 2.4px solid#fff;
 
 /*main*/
 #main{
-   width: 980px;
    z-index: 5;
-   margin: 0 auto;
    position: absolute;
+   left: 5%;
+    right: 5%;
 }
 .logo{
- margin:0 auto;  
-width: 980px;
+margin:0 auto;  
+max-width: 980px;
 text-align: center;
 }
 .image{
