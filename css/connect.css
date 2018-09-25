@@ -14,6 +14,7 @@ margin: 0 auto;
 width: 980px;
 background-image: url(background-image/pg.jpg);
 background-attachment: fixed;
+height: 600px;
 }
 .style{
     width: 100%;
@@ -22,6 +23,8 @@ background-attachment: fixed;
     background-color: #000;
     opacity: .8;
     left: 0;
+    top: 0;
+    z-index: 1;
 }
 /*header*/
 #header{
@@ -31,6 +34,7 @@ background-attachment: fixed;
   position: fixed;
   z-index: 999;
   left: 0;
+  top: 0;
 }
 .container{
   padding: 0 18.5px;
@@ -84,12 +88,12 @@ border-bottom: 2.4px solid#fff;
    width: 980px;
    z-index: 5;
    margin: 0 auto;
+   position: absolute;
 }
 .logo{
-   position: fixed;
-   left: 0;
-    right: 0;
-   text-align: center;   
+ margin:0 auto;  
+width: 980px;
+text-align: center;
 }
 .image{
     width: 270px;
