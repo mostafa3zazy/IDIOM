@@ -186,10 +186,14 @@ p{
     font-size: 16px;
     font-family: 'Cairo', sans-serif;
     color: #333;  
+    direction: rtl;
 }
 .cont1:hover{background-color: #fff;}
 #s1,#s2,#s3,#s4,#s5,#s6,#s7,#s8{
     display: none;
+}
+#c1,#c2,#c3,#c4,#c5,#c6,#c7,#c8{
+    cursor: pointer;
 }
 @media screen and (min-width: 320px) and (max-width: 550px)  {
     #click{display: block;}
