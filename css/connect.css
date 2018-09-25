@@ -47,20 +47,21 @@ min-width: 320px;
 float: left;
 }
 #logo{
-  float: right;
-margin: 8px 12.5px 4px; 12.5px;
+  position: absolute;
+  margin: 8px 12.5px 4px 12.5px; 
+  right: 4%;
 }
 #text_logo{
     font-size: 40px;
-    color:#e88800;
+    color:#333;
 }
 .table{
   margin: 0;
   padding: 0;
 }
 .elements-of-tabel:hover{
-  border-color: #e88800;
-  color: #bf7103;
+  border-color: #333;
+  color: #555;
   transition: .4s
 }
 .elements-of-tabel{
@@ -71,19 +72,60 @@ color: #333;
 border-bottom: 2.4px solid#fff;
 }
 .elements-of-tabell:hover{
-  background-color: #e2a040;
-  border-color: #e88800;
+  background-color: #666;
+  border-color: #333;
   transition: .4s;
 }
 .elements-of-tabell{
-  background-color:#e88800;
+  background-color:#333;
   color: #fff;
   padding: 20px 15px 17px 15px;
   font-family: 'Cairo', sans-serif;
   font-size: 14px;
-  border-bottom: 2.4px solid#e88800;
+  border-bottom: 2.4px solid#333;
 }
 
+/*header mobile verson*/
+.fa{
+    font-size: 30px;
+}
+#dissapear-list{
+  width: 230px;
+  position: absolute;
+  top: 62px;
+  left: 3%;
+  text-align: right;
+  display: none;
+  margin: 0;
+  padding: 0;
+  z-index: 1;
+}
+.column{
+padding: 0;
+display: block;
+background-color: #f9f9f9;
+}
+.li-column{
+padding: 7px 15px;
+font-size: 14px;
+color: #333;
+font-family: 'Cairo', sans-serif;
+border-bottom: 2px solid#fff;
+display: block;
+}
+.li-column:hover{
+  color: #555;
+  transition: .3s;
+  border-color: #666;
+}
+#click{
+    padding: 15px 15px;
+    display: none;
+    position: absolute;
+    color: #333;
+    border-bottom: 2.4px solid#fff;
+}
+#click:hover{background-color: #ccc;}
 /*main*/
 #main{
    z-index: 5;
@@ -113,4 +155,8 @@ text-align: center;
     padding-top: 50px;
     width: 150px;
     margin: 0 auto;
+}
+@media screen and (min-width: 320px) and (max-width: 550px)  {
+    #click{display: block;}
+    .table1{display: none;}
 }

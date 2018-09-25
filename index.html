@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="shortcut icon" href="images/1.png">
     <link href="https://fonts.googleapis.com/css?family=Cairo:600" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
       <script src="js/jquery-3.3.1.min.js"></script>
       <script src="js/js.js"></script>
   </head>
@@ -17,9 +18,17 @@
          <a href="index.html"><span id="text_logo">IDIOM</span></a>
      </div>
        <ul class="table">
-         <li class="li-row"><a class="elements-of-tabel" href="connect.html">اتصل بنا</a></li>
-         <li class="li-row"><a class="elements-of-tabell" href="">الأسئلة الشائعة </a></li>
-         <li class="li-row"><a class="elements-of-tabel" href="about.html">عن المبادرة</a></li>
+         <li><a  id="click" style="color: #333;" href="#"><i class="fa fas fa-bars"></i></a>
+           <ul id="dissapear-list">
+            <li class="column"><a class="li-column" href="index.html">الصفحة الرئيسية</a></li>
+            <li class="column"><a class="li-column" href="about.html">عن المبادرة</a></li>
+            <li class="column"><a class="li-column" href="ask.html">الاسئلة الشائعة</a></li>
+            <li class="column"><a class="li-column" href="connect.html">اتصل بنا</a></li>
+           </ul>
+           </li>
+         <li class="table1 li-row"><a class="elements-of-tabel" href="connect.html">اتصل بنا</a></li>
+         <li class="table1 li-row"><a class="elements-of-tabell" href="ask.html">الأسئلة الشائعة </a></li>
+         <li class="table1 li-row"><a class="elements-of-tabel" href="about.html">عن المبادرة</a></li>
        </ul>
      </div>
    </header>
@@ -33,10 +42,10 @@
          <img class="slide" id="slide6" src="images/6s.jpg">
      </div>
         <div class="find">
-         <h1 style="margin-top:100px;margin-bottom: 50px; text-align:center;color:#e88800;">اكتشف ايديام</h1>
+         <h1 style="margin-top:100px;margin-bottom: 50px; text-align:center;color:#333;">اكتشف ايديام</h1>
          <a class="right" href="about.html"><h3 class="inside1"> عن المبادرة </h3></a>
         <a class="left" href="connect.html"><h3 class="inside2"> اتصل بنا </h3></a>
-        <div class="center"><h3 class="inside3"> الاسئلة الشائعة </h3></div>
+        <a href="ask.html"><div class="center"><h3 class="inside3"> الاسئلة الشائعة </h3></div></a>
         </div>
    </main>
    <footer id="footer">
